@@ -3,6 +3,7 @@ public class ThirdTask {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int days = scanner.nextInt();
+        scanner.nextLine();
         String[] data = scanner.nextLine().split(" ");
 
         //  Создадим два массива: подписки и отписки
